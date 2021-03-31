@@ -15,6 +15,14 @@ User UserManager::giveDataOfNewUser() {
 
     user.setId(takeIdOfNewUser());
 
+    string name;
+    cout<<"Podaj imie: ";
+    cin>> name;
+    user.setName(name);
+    string surname;
+    cout<<"Podaj nazwisko: ";
+    cin>> surname;
+    user.setSurname(surname);
     string login;
     do {
         cout<< "Podaj login: ";
@@ -25,7 +33,6 @@ User UserManager::giveDataOfNewUser() {
     cout << "Podaj haslo: ";
     cin>> password;
     user.setPassword(password);
-
     return user;
 }
 bool UserManager::isLoginExist(string login) {
@@ -37,9 +44,7 @@ bool UserManager::isLoginExist(string login) {
 
     }
     return false;
-
 }
-
 int UserManager::takeIdOfNewUser() {
 
     int id= 10;

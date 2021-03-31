@@ -37,7 +37,7 @@ void FileWithUsers:: addUserToFile (User user){
 
        CMarkup xml;
        int id;
-       string login="", password="";
+       string login="", password="", name="", surname="";
 
 
     bool fileExists = xml.Load( "users.xml" );
@@ -55,6 +55,8 @@ void FileWithUsers:: addUserToFile (User user){
     xml.AddElem("UserId", user.getId());
     xml.AddElem("Login", user.getLogin());
     xml.AddElem("Password", user.getPassword());
+    xml.AddElem("name", user.getName());
+    xml.AddElem("surname", user.getSurname());
 
     xml.Save("users.xml");
 }

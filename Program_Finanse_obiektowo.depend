@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1617049306 source:c:\users\zuzia\documents\programowanie\projekty\program finanse\program_finanse_obiektowo\financemanager.cpp
+	"FinanceManager.h"
+
+1617045417 source:c:\users\zuzia\documents\programowanie\projekty\program finanse\program_finanse_obiektowo\user.cpp
+	"User.h"
+
+1617044978 source:c:\users\zuzia\documents\programowanie\projekty\program finanse\program_finanse_obiektowo\xmlhendler.cpp
+	"XmlHendler.h"
+	"Markup.h"
+
+1616860653 c:\users\zuzia\documents\programowanie\projekty\program finanse\program_finanse_obiektowo\xmlhendler.h
+	<iostream>
+
+4293264394 c:\users\zuzia\documents\programowanie\projekty\program finanse\program_finanse_obiektowo\markup.h
+	<stdlib.h>
+	<string.h>
+	<string>
+	<afx.h>
+
+1617045419 c:\users\zuzia\documents\programowanie\projekty\program finanse\program_finanse_obiektowo\user.h
+	<iostream>
+	<vector>
+
+1617135053 source:c:\users\zuzia\documents\programowanie\projekty\program finanse\program_finanse_obiektowo\filewithusers.cpp
+	<iostream>
+	"FileWithUsers.h"
+	"Markup.h"
+
+1617049657 c:\users\zuzia\documents\programowanie\projekty\program finanse\program_finanse_obiektowo\filewithusers.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<fstream>
+	"User.h"
+	"XmlHendler.h"
+	"Markup.h"
+
+1617221618 source:c:\users\zuzia\documents\programowanie\projekty\program finanse\program_finanse_obiektowo\usermanager.cpp
+	"UserManager.h"
+
+1617049924 c:\users\zuzia\documents\programowanie\projekty\program finanse\program_finanse_obiektowo\usermanager.h
+	<iostream>
+	"FileWithUsers.h"
+	"User.h"
+
+1617049232 c:\users\zuzia\documents\programowanie\projekty\program finanse\program_finanse_obiektowo\financemanager.h
+	<iostream>
+	"UserManager.h"
+
+1617049336 source:c:\users\zuzia\documents\programowanie\projekty\program finanse\program_finanse_obiektowo\main.cpp
+	<iostream>
+	"financemanager.h"
+

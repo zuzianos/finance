@@ -9,7 +9,7 @@ char getChar();
 
 int main()
 {
-      FinanceManager financeManager("users.xml","incomes.xml", "expenses.xml" );
+      FinanceManager financeManager("users.xml");
 
     char choice;
    while (true)
@@ -24,7 +24,7 @@ int main()
                 financeManager.userRegistration();
                 break;
             case '2':
-                finance.Manager.userLoggin();
+                financeManager.userLoggin();
                 break;
             case '9':
                 exit(0);
@@ -42,25 +42,25 @@ int main()
             switch (choice)
             {
             case '1':
-                financeManager.addIncomes();
+                //financeManager.addIncomes();
                 break;
             case '2':
-                financeManager.addExpenses();
+                //financeManager.addExpenses();
                 break;
             case '3':
-               financeManager.ShowBalanceFormTheCurrentMonth ();
+               //financeManager.ShowBalanceFormTheCurrentMonth ();
                 break;
             case '4':
-                financeManager.ShowBalanceFormTheChosenPeriod ();
+               // financeManager.ShowBalanceFormTheChosenPeriod ();
                 break;
             case '5':
-                financeManager.ShowBalanceFormTheLastMonth();
+                //financeManager.ShowBalanceFormTheLastMonth();
                 break;
             case '6':
-                financeManager.changePasswordOfLoggedUser();
+                //financeManager.changePasswordOfLoggedUser();
                 break;
             case '7':
-                financeManager.logOutUser();
+                //financeManager.logOutUser();
                 break;
             }
         }
@@ -106,7 +106,7 @@ char choseOptionFromUserMenu()
     cout << "Twoj wybor: ";
     chose = getChar();
 
-    return wybor;
+    return chose;
 }
 
 char getChar()

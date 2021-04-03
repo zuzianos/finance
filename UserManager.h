@@ -14,7 +14,7 @@ int idOfLoggedUser;
  vector<User> users;
 
  User giveDataOfNewUser();
- int takeIdOfNewUser();
+ int getIdOfNewUser();
  FileWithUsers fileWithUsers;
  string getLine();
  bool isLoginExist(string login);

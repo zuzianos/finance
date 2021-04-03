@@ -94,11 +94,11 @@ char choseOptionFromUserMenu()
     system("cls");
     cout << " >>> MENU UZYTKOWNIKA <<<" << endl;
     cout << "---------------------------" << endl;
-    cout << "1. Dodaj przychód" << endl;
+    cout << "1. Dodaj przychod" << endl;
     cout << "2. Dodaj wydatek" << endl;
-    cout << "3. Wyœwietl bilans z bie¿¹cego misiaca" << endl;
-    cout << "4. Wyœwietl bilans z wybranego okresu" << endl;
-    cout << "5. Wyœwietl bilans z poprzedniego miesiaca" << endl;
+    cout << "3. Wyswietl bilans z biezacego misiaca" << endl;
+    cout << "4. Wyswietl bilans z wybranego okresu" << endl;
+    cout << "5. Wyswietl bilans z poprzedniego miesiaca" << endl;
     cout << "---------------------------" << endl;
     cout << "6. Zmien haslo" << endl;
     cout << "7. Wyloguj sie" << endl;

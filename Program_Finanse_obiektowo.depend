@@ -2,7 +2,7 @@
 1617222047 source:c:\users\zuzia\documents\programowanie\projekty\program finanse\program_finanse_obiektowo\financemanager.cpp
 	"FinanceManager.h"
 
-1617223265 source:c:\users\zuzia\documents\programowanie\projekty\program finanse\program_finanse_obiektowo\user.cpp
+1617223768 source:c:\users\zuzia\documents\programowanie\projekty\program finanse\program_finanse_obiektowo\user.cpp
 	"User.h"
 
 1617222047 source:c:\users\zuzia\documents\programowanie\projekty\program finanse\program_finanse_obiektowo\xmlhendler.cpp
@@ -18,11 +18,11 @@
 	<string>
 	<afx.h>
 
-1617223545 c:\users\zuzia\documents\programowanie\projekty\program finanse\program_finanse_obiektowo\user.h
+1617223768 c:\users\zuzia\documents\programowanie\projekty\program finanse\program_finanse_obiektowo\user.h
 	<iostream>
 	<vector>
 
-1617223545 source:c:\users\zuzia\documents\programowanie\projekty\program finanse\program_finanse_obiektowo\filewithusers.cpp
+1617223768 source:c:\users\zuzia\documents\programowanie\projekty\program finanse\program_finanse_obiektowo\filewithusers.cpp
 	<iostream>
 	"FileWithUsers.h"
 	"Markup.h"
@@ -36,10 +36,10 @@
 	"XmlHendler.h"
 	"Markup.h"
 
-1617222047 source:c:\users\zuzia\documents\programowanie\projekty\program finanse\program_finanse_obiektowo\usermanager.cpp
+1617223768 source:c:\users\zuzia\documents\programowanie\projekty\program finanse\program_finanse_obiektowo\usermanager.cpp
 	"UserManager.h"
 
-1617222047 c:\users\zuzia\documents\programowanie\projekty\program finanse\program_finanse_obiektowo\usermanager.h
+1617469596 c:\users\zuzia\documents\programowanie\projekty\program finanse\program_finanse_obiektowo\usermanager.h
 	<iostream>
 	"FileWithUsers.h"
 	"User.h"

@@ -54,4 +54,11 @@
 <name>Zuzanna</name>
 <surname>Nosal</surname>
 </User>
+<User>
+<UserId>6</UserId>
+<Login>testy</Login>
+<Password>hslo</Password>
+<name>ZUziaTest</name>
+<surname>NazwizkoTest</surname>
+</User>
 </Users>

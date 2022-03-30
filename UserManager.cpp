@@ -13,7 +13,7 @@ void UserManager::userRegistration () {
 User UserManager::giveDataOfNewUser() {
     User user;
 
-    user.setId(takeIdOfNewUser());
+    user.setId(getIdOfNewUser());
 
     string name;
     cout<<"Podaj imie: ";
@@ -45,25 +45,17 @@ bool UserManager::isLoginExist(string login) {
     }
     return false;
 }
-int UserManager::takeIdOfNewUser() {
+int UserManager::getIdOfNewUser() {
 
-    int id= 10;
-    string strId;
-    CMarkup xml;
-    bool fileExists = xml.Load("users.xml");
-    if (!fileExists) {
-        id=11;
-    } else {
-        xml.FindElem();
-        xml.IntoElem();
-        while ( xml.FindElem("User") ) {
-            xml.IntoElem();
-            xml.FindElem("UserId");
-            id = atoi( MCD_2PCSZ (xml.GetData() ) );
-            xml.OutOfElem();
-        }
+    if (users.empty())
+    {
+          return 1;
+     }
+    else
+    {
+         return users.back().getId() + 1;
     }
-    return id+1;
+
 }
 
 void UserManager::userLoggin() {
